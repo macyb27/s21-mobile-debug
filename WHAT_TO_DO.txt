@@ -1,9 +1,12 @@
 1. Install Termux (F-Droid recommended)
-2. Open Termux and run:
-   pkg update && pkg upgrade
-   pkg install python
-3. Navigate to s21-mobile-debug
-4. Run the debug script:
+2. Update packages and install Python & Git
+3. Clone repo using SSH:
+   git clone git@github.com:macyb27/s21-mobile-debug.git
+4. Navigate to repo folder:
+   cd s21-mobile-debug
+5. Run bootstrap if needed:
+   ./auto_bootstrap.sh
+6. Run debug:
    python3 mobile_debug.py
-5. Reports saved in reports/ directory
-6. Optional: logcat -c to clear logs before test
+7. Backup & push changes automatically:
+   ./auto_git_backup.sh

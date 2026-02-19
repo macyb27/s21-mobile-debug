@@ -22,18 +22,14 @@ def analyze_logs(logs):
     if "FATAL EXCEPTION" in logs:
         issues.append("Java Crash Detected")
         score -= 30
-
     if "ANR" in logs:
         issues.append("ANR Detected")
         score -= 20
-
     if "OutOfMemoryError" in logs:
         issues.append("OOM Detected")
         score -= 25
-
     if "Knox" in logs:
         issues.append("Knox Security Event")
-
     if "SystemUI" in logs:
         issues.append("SystemUI Activity")
 
