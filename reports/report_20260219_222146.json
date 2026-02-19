@@ -1,0 +1,7 @@
+{
+    "timestamp": "20260219_222146",
+    "health_score": 100,
+    "issues": [],
+    "memory_snapshot": "MemTotal:        7373756 kB\nMemFree:          420464 kB\nMemAvailable:    2165524 kB\nBuffers:            2044 kB\nCached:          1846756 kB\nSwapCached:        13864 kB\nActive:          2005756 kB\nInactive:         939752 kB\nActive(anon):    1493044 kB\nInactive(anon):   424872 kB\nActive(file):     512712 kB\nInactive(file):   514880 kB\nUnevictable:        4496 kB\nMlocked:            4496 kB\nRbinTotal:        804864 kB\nRbinAlloced:           0 kB\nRbinPool:              0 kB\nRbinFree:          14948 kB\nRbinCached:       789916 kB\nZeroedFree:        50276 kB\nSwapTotal:       4194300 kB\nSwapFree:        1370884 kB\nDirty:               232 kB\nWriteback:            12 kB\nAnonPages:       1886796 kB\nMapped:           673484 kB\nShmem:             31484 kB\nKReclaimable:     252528 kB\nSlab:             509424 kB\nSReclaimable:      93408 kB\nSUnreclaim:       416016 kB\nKernelStack:       89092 kB\nShadowCallStack:   22244 kB\nPageTables:       173592 kB\nNFS_Unstable:          0 kB\nBounce:             ",
+    "cpu_snapshot": "CPU info unavailable"
+}
