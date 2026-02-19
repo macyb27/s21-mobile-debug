@@ -1,0 +1,9 @@
+1. Install Termux (F-Droid recommended)
+2. Open Termux and run:
+   pkg update && pkg upgrade
+   pkg install python
+3. Navigate to s21-mobile-debug
+4. Run the debug script:
+   python3 mobile_debug.py
+5. Reports saved in reports/ directory
+6. Optional: logcat -c to clear logs before test
